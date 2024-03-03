@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="Pagedesign.css">
+  <link rel="stylesheet" href="_variables.scss">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-purple">
+
+      <a class="navbar-brand" href="#" style="text-shadow: 20px black; font-weight: bold;">Dictionary</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Find Your Word" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+
+    </nav>
+
+
+
+
+    <div class="Searching-part">
+
+      <div class="Dictionary-head">
+        <ul>
+          <h1 class="Dico">Dico</h1>
+        </ul>
+        <ul> <img src="./pngwing.com.png" alt="" id="line">
+        </ul>
+        <ul>
+          <h1 class="shabd">शब्दकोष</h1>
+        </ul>
+      </div>
+      <div class="Search-box">
+
+        <!-- <form class="Search-box" role="Search" > -->
+        <input class="Search-input" type="search" placeholder="Find Your Word" aria-label="Search" maxlength="100"
+          id="Searchinput">
+        <button class="Search-btn" type="submit" style="margin-top: 1em;" id="searchbtn">Search</button>
+        <!-- </form> -->
+      </div>
+    </div>
+  </div>
+  <div class="Textarea">
+    <h1 class="display"><span id="wordhead">
+        Your Word Will Appear Here
+
+      </span>
+    </h1>
+  </div><br><div class="Phonetics"><h4 style="font-size:large;">Phonetics:</h4><p id="Phonetics2" style="font-size:small ;">Phonetics</p></div> <br>
+  <div class="Textarea2">
+    <p class="define"><span id="defined">Your definition will be displayed here</span></p>
+  </div>
+  <script src="./api2.js"></script>
+  </div>
+</body>
+
+</html>
