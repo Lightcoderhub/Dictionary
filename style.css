@@ -1,0 +1,107 @@
+@media screen and (max-width: 1920px)  {
+  
+  * {
+    margin: 0.5px;
+    padding: 0.5px;
+    border: 0.5px;
+    box-sizing: border-box;
+    background-size: auto;
+  }
+  .navbar {
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+
+    padding-left: 5px;
+  }
+  .container-fluid {
+    padding: 0px 0.5px;
+    border: 10px 10px;
+  
+  }
+  .Searching-part {
+    width: 100%;
+    padding: 0px 0px;
+    background: linear-gradient(
+      106.5deg,
+      rgba(255, 215, 185, 0.91) 23%,
+      rgba(223, 159, 247, 0.8) 93%
+    );
+
+    display: inline-flex;
+
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+  }
+
+  
+
+  .Search-box {
+   
+    /* justify-content: center;
+  align-content: center; */
+    padding-left: 20rem;
+  }
+  input.Search-input {
+    /* align-content: center; */
+    margin: 5px;
+    padding: 8px 70px;
+    border-radius: 10px;
+  }
+  button.Search-btn {
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  button.Search-btn:hover {
+    color: rgb(207, 159, 255);
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+    color: antiquewhite;
+  }
+
+  .Dictionary-head {
+    gap: 0px;
+  }
+  h1.Dico {
+    gap: 2px;
+  }
+  img#line {
+    position: relative;
+    justify-items: auto;
+    bottom: 100px;
+    width: 150px;
+    height: 150px;
+    object-position: 20px;
+  }
+  h1.shabd {
+    font-family: "Tiro Devanagari Hindi", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    bottom: 200px;
+    font-size: 35px;
+    left: 25px;
+  }
+  div.Textarea {
+    text-align: center;
+  }
+  div.Textarea2 {
+    text-align: center;
+  }
+  div.Phonetics {
+    text-align: center;
+    display: inline-flex;
+    text-align: center;
+
+    position: relative;
+    left: 200px;
+    right: -50px;
+    border-bottom: 10px;
+    padding-bottom: 20px;
+  }
+  p#Phonetics2 {
+    margin-bottom: 0px;
+    margin-top: 4px;
+  }
+}
